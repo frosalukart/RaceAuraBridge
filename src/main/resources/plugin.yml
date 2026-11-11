@@ -1,0 +1,14 @@
+name: RaceAuraBridge
+version: '1.0.0'
+main: com.raceaurabridge.RaceAuraBridge
+api-version: '1.21'
+description: Menyinkronkan max health RaceCore dengan stat Health AuraSkills.
+depend: [AuraSkills]
+softdepend: [RaceCore]
+commands:
+  raceaura:
+    description: Paksa sinkronisasi health semua pemain.
+    usage: /raceaura sync
+    permission: raceaura.admin
+permissions:
+  raceaura.admin: {default: op}

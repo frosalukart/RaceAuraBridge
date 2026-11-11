@@ -1,5 +1,0 @@
-# Seberapa sering (tick) cek perubahan base max health. 20 tick = 1 detik.
-check-interval-ticks: 20
-# Delay (tick) setelah pemain join sebelum sinkronisasi pertama.
-# Beri jeda supaya RaceCore selesai menerapkan rasnya dulu.
-join-sync-delay-ticks: 60
